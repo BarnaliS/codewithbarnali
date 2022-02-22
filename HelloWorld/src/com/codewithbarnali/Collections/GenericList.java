@@ -2,7 +2,7 @@ package com.codewithbarnali.Collections;
 
 public class GenericList <T>{
 
-   private T[] items = (T[])new Object[10];
+   public T[] items = (T[])new Object[10];
    private int count = 0;
 
     public void add(T item){
